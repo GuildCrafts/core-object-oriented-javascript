@@ -1,4 +1,5 @@
 
+
 # Core Object Oriented JavaScript
 
 A day-by-day structured deep dive into object-oriented JavaScript. Read articles, watch videos, complete lessons and exercises, and implement a final project.
@@ -122,3 +123,10 @@ Do you know/understand:
 [ninja]:https://github.com/GuildCrafts/core-object-oriented-javascript/raw/master/Books/Secrets%20of%20the%20JavaScript%20Ninja%20-%20John%20Resig%20and%20Bear%20Bibeault%20-%20December%202012.pdf
 [cheat]:https://github.com/GuildCrafts/core-object-oriented-javascript/raw/master/Books/Objects-Cheat-Sheet.pdf
 [oojs]:ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/[Packt]%20-%20Object-Oriented%20JavaScript%20-%20[Stefanov].pdf
+
+frontend-nanodegree-arcade-game
+
+
+Students should use this rubric: https://www.udacity.com/course/viewer#!/c-ud015/l-3072058665/m-3072588797
+
+for self-checking their submission.
