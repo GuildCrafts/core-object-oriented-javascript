@@ -79,7 +79,7 @@
     }
 
     /* This function determines if all of the images that have been requested
-     * for loading have in fact been completed loaded.
+     * for loading have in fact been properly loaded.
      */
     function isReady() {
         var ready = true;
