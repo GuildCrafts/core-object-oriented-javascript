@@ -64,10 +64,16 @@ Your objectives for the day is to:
 - https://shereef.wistia.com/medias/xxj6323pk9
 [ ] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 [ ] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+[ ] Complete the [Prototype Chains][udacity] Lesson on Udacity
+[ ] Complete the [Prototypal Classes][udacity] Lesson on Udacity
+[ ] Read pages 184 to 201 in [Professional JS for Web Developers](projs)
+[ ] Read sections 7.1 & 7.2 in [JS Ninja](ninja)
 
-## Day 3: 
+## Day 3:
 
-## Day 4:
+## Day 4: Frogger
+
+[ ] Complete the [Final Project][udacity] Lesson on Udacity
 
 ## Day 5: Deeper dive with stretch goals
 
@@ -78,17 +84,25 @@ Your objectives for the day is to:
 - [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
 - [Object Oriented Javascript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 
+## How to submit a project for review:
+
+- Submit a repo of the final project from the udacity course
+- A copy of this file with the sections that you've completed checked off in the root of the repo
+
 
 ## Unprocessed
 
+[ ] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
+[ ] Complete the [Functional Classes][udacity] Lesson on Udacity
+[ ] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
+[ ] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
+[ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
 
 
 
 
 https://www.udemy.com/object-javascript/
 
-
-ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/Wrox.Professional.JavaScript.for.Web.Developers.3rd.Edition.Jan.2012.pdf
 
 Page 173 of Professional Javascript for Web Developers
 Page 167 of Secrets of Javascript Ninja
@@ -138,3 +152,5 @@ http://www.code-sample.com/2015/04/javascript-interview-questions-answers.html
 
 
 [udacity]: https://www.udacity.com/course/object-oriented-javascript--ud015
+[projs]: ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/Wrox.Professional.JavaScript.for.Web.Developers.3rd.Edition.Jan.2012.pdf
+[ninja]: 
