@@ -37,13 +37,15 @@ Your objectives for the day is to:
 [ ] Complete the [Closures lesson][udacity]
 
 
-**Stretch goals for Day 1**
+
+## Day 2: Object in Javascript
+
+[ ] Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
+[ ] Read pages 173 to 184 in [Professional JS for Web Developers](projs)
+[ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
 
 
-## Day 2: The Keyword "this" & Prototypes
-
-- Learn about the "this" keyword
-- Understand Prototypes
+## Day 3: The Keyword "this" & Prototypes
 
 ### This
 
@@ -69,22 +71,40 @@ Your objectives for the day is to:
 [ ] Read pages 184 to 201 in [Professional JS for Web Developers](projs)
 [ ] Read sections 7.1 & 7.2 in [JS Ninja](ninja)
 
-## Day 3:
 
 ## Day 4: Frogger
 
+[ ] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
+[ ] Complete the [Functional Classes][udacity] Lesson on Udacity
+[ ] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
+[ ] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
+[ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
+
+[ ] Start the [Final Project][udacity] Lesson on Udacity
+
+## Day 5: Complete Project and Deeper dive
+
 [ ] Complete the [Final Project][udacity] Lesson on Udacity
 
-## Day 5: Deeper dive with stretch goals
+## Stretch Goals
+[ ] Read [Object Oriented Javascript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
+[ ] Read [Chapter 8 of Eloquent Javascript](http://eloquentjavascript.net/1st_edition/chapter8.html)
+[ ] Read [The Basics of Object Oriented Javascript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
 
-[ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
-[ ] Go over the following critical resources
-- [Chapter 8 of Eloquent Javascript](http://eloquentjavascript.net/1st_edition/chapter8.html)
-- [The Basics of Object Oriented Javascript](https://code.tutsplus.com/tutorials/the-basics-of-object-oriented-javascript--net-7670)
-- [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
-- [Object Oriented Javascript for Beginners](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS)
 
-## How to submit a project for review:
+
+## Check your understanding:
+
+Do you know:
+
+- The difference between Classic Inheritance and Prototypical Inheritance
+- The difference between private variable, public variable and static variable? How we achieve this in JS?
+- How to add/remove properties to object in run time?
+- How to achieve inheritance ?
+- How to extend built-in objects?
+
+
+## How to submit this project for review:
 
 - Submit a repo of the final project from the udacity course
 - A copy of this file with the sections that you've completed checked off in the root of the repo
@@ -92,11 +112,6 @@ Your objectives for the day is to:
 
 ## Unprocessed
 
-[ ] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
-[ ] Complete the [Functional Classes][udacity] Lesson on Udacity
-[ ] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
-[ ] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
-[ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
 
 
 
@@ -134,11 +149,6 @@ https://www.linkedin.com/pulse/object-oriented-javascript-interview-questions-an
 
 OOPS JS
 
-Difference between Classic Inheritance and Prototypical Inheritance
-What is difference between private variable, public variable and static variable? How we achieve this in JS?
-How to add/remove properties to object in run time?
-How to achieve inheritance ?
-How to extend built-in objects?
 Why extending array is bad idea?
 
 
@@ -146,11 +156,9 @@ https://blog.kevinchisholm.com/object-oriented-javascript/javascript-interview-q
 
 http://career.guru99.com/top-50-oops-interview-questions/ (with quiz!)
 
-
-
 http://www.code-sample.com/2015/04/javascript-interview-questions-answers.html
 
 
 [udacity]: https://www.udacity.com/course/object-oriented-javascript--ud015
 [projs]: ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/Wrox.Professional.JavaScript.for.Web.Developers.3rd.Edition.Jan.2012.pdf
-[ninja]: 
+[ninja]: https://github.com/GuildCrafts/core-object-oriented-javascript/raw/master/Books/Secrets%20of%20the%20JavaScript%20Ninja%20-%20John%20Resig%20and%20Bear%20Bibeault%20-%20December%202012.pdf
