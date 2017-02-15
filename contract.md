@@ -67,7 +67,7 @@ Your objectives for the day is to:
 
 **Stretch**
 
-[ ] Read Chapter 4 of [Object Oriented Javascript][oojs]
+[ ] Do exercises for Chapter 4 of [Object Oriented Javascript][oojs] (and maybe read it)
 [ ] Study these [top 50 OOPs interview questions](http://career.guru99.com/top-50-oops-interview-questions/)
 
 ## Day 3: Prototype and Inheritance
@@ -88,8 +88,8 @@ Your objectives for the day is to:
 [ ] Read pages 184 to 201 in [Professional JS for Web Developers](projs)
 [ ] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 [ ] Read sections 7 in [JS Ninja](ninja)
-[ ] Read Chapter 5 of [Object Oriented Javascript][oojs]
-[ ] Read Chapter 6 of [Object Oriented Javascript][oojs]
+[ ] Do exercises for Chapter 5 of [Object Oriented Javascript][oojs] (and maybe read it)
+[ ] Do exercises for Chapter 6 of [Object Oriented Javascript][oojs] (and maybe read it)
 
 ## Day 4: Deeper Dive and Final Project
 
@@ -134,17 +134,6 @@ Do you know/understand:
 [ ] Go over these [object oriented javascript interview questions](https://blog.kevinchisholm.com/object-oriented-javascript/javascript-interview-questions-object-oriented-javascript/)
 [ ] Complete these [3 practice exercises](https://www.ibm.com/developerworks/library/wa-objects-pr/)
 [ ] Complete section 2 of [these exercises](http://ynonperek.com/javascript-exer.html)
-
-## Unprocessed
-
-
-
-18 excercises
-http://www.w3resource.com/javascript-exercises/javascript-object-exercises.php ***
-
-
-http://do.whileloop.org/2015/05/29/solutions-to-exercises-in-object-oriented-javascript-chapter-5/
-
 
 
 [udacity]: https://www.udacity.com/course/object-oriented-javascript--ud015
