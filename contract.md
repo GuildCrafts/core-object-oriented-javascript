@@ -5,9 +5,11 @@ This goal requires an understanding of JavaScript syntax. Specifically, you shou
 
 Take on this goal if you want to learn about:
 
-- Scopes & Closures
+- Scopes
+- Closures
 - The Keyword "this"
-- Prototype Delegation
+- Prototype
+- Inheritance
 - Code Reuse
 
 ## How to submit this project for review:
