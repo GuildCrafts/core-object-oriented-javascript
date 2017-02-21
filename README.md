@@ -18,7 +18,6 @@ Your objectives for the day is to:
   - https://shereef.wistia.com/medias/hn99v12lkr
   - https://shereef.wistia.com/medias/6snmj6es7v
   - https://shereef.wistia.com/medias/5bva01dxbw
-  - https://shereef.wistia.com/medias/zi0me19ovo
 - [ ] Signup for [Udacity Object Oriented Javascript][udacity]
 - [ ] Complete the [Scopes lesson][udacity]
 
