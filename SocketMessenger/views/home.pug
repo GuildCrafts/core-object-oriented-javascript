@@ -1,0 +1,32 @@
+extends layout
+block scripts
+  script(src="https://use.fontawesome.com/b14bb03d41.js")
+  link(rel='stylesheet', type='text/css', href='/css/home.css')
+block content
+  .container.navbar_container
+    .row.navbar
+      .seven.columns
+        span.title
+          h3= title
+      .five.columns
+        input.search_input.input_width(type="email" placeholder="test@mailbox.com" id="exampleEmailInput")
+        button.search_button
+          i.fa.fa-search
+  .container
+    h5 Chat
+    .row.message_container
+      .three.columns.message_history
+          .coversation
+            | I like dogs
+          .coversation
+            | I like cats
+      .nine.columns.message_box_wrapper
+        .coversation_header
+          span.converstaion_title
+            | Convo -
+          span.current_convorsation
+            | I like dogs
+        .coversation_content
+          | Content
+        .coversation_footer
+          textarea.u-full-width(placeholder="Hi Dave …" id="exampleMessage")

@@ -1,0 +1,26 @@
+DROP TABLE IF EXISTS message CASCADE;
+CREATE TABLE IF NOT EXISTS message (
+  id SERIAL PRIMARY KEY,
+  chat_room_id INTEGER,
+  user_id INTEGER,
+  message_body TEXT
+);
+
+DROP TABLE IF EXISTS chat_room CASCADE;
+CREATE TABLE IF NOT EXISTS chat_room (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(128)
+);
+
+DROP TABLE IF EXISTS user CASCADE;
+CREATE TABLE IF NOT EXISTS user (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(32),
+  password VARCHAR(32),
+);
+
+DROP TABLE IF EXISTS user_chat_room CASCADE;
+CREATE TABLE IF NOT EXISTS user_chat_room (
+  user_id SERIAL PRIMARY KEY,
+  chat_room_id VARCHAR(32),
+);

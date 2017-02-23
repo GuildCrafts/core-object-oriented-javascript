@@ -1,0 +1,13 @@
+div.landing {
+  width: 100vw;
+  height: 100vh;
+  background: url(/images/old_cells.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+#log_in_button {
+  background: white;
+  position:relative;
+  top:50%;
+  left:50%;
+}
