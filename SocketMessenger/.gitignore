@@ -1,0 +1,4 @@
+.env
+node_modules
+SocketMSG_files
+../.DS_Store
