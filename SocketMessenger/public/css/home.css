@@ -20,6 +20,7 @@ input {
   border-radius: 5px;
   height: auto;
   min-height: 85%;
+  max-height: 85%;
   margin-left: 1%;
 }
 
@@ -35,16 +36,15 @@ input {
  }
 
  .coversation {
-   transition: background-color 0.5s linear;
-   transition: border-radius 0.5s linear;
+   transition: all 0.7s ease;
+   border-radius: 2px;
    font-size: 12px;
    height: 50px;
    padding: 10px;
-   border-bottom: 1px solid black;
  }
 
 .coversation:hover {
-  background-color: #33C3F0;
+  background: #33C3F0;
   border-radius: 5px;
  }
 
@@ -57,9 +57,33 @@ input {
 }
 
 .coversation_content {
+  overflow: scroll;
+
+  display: flex;
+  flex-flow: column;
   flex: 1 1 auto;
   align-items: stretch;
   padding: 10px;
+}
+
+.mine {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 50%;
+  flex: 0 1 auto;
+  align-self: flex-end;
+}
+
+.theirs {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 40%;
+  flex: 0 1 auto;
+  align-self: flex-start;
 }
 
  .coversation_footer {

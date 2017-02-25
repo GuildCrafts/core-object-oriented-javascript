@@ -1,13 +1,15 @@
 extends layout
 block scripts
   script(src="https://use.fontawesome.com/b14bb03d41.js")
+  script(src="/scripts/home.js")
   link(rel='stylesheet', type='text/css', href='/css/home.css')
 block content
   .container.navbar_container
     .row.navbar
       .seven.columns
         span.title
-          h3= title
+          h3
+            |SocketChat
       .five.columns
         input.search_input.input_width(type="email" placeholder="test@mailbox.com" id="exampleEmailInput")
         button.search_button
@@ -16,10 +18,7 @@ block content
     h5 Chat
     .row.message_container
       .three.columns.message_history
-          .coversation
-            | I like dogs
-          .coversation
-            | I like cats
+          +chatrooms
       .nine.columns.message_box_wrapper
         .coversation_header
           span.converstaion_title
@@ -27,6 +26,17 @@ block content
           span.current_convorsation
             | I like dogs
         .coversation_content
-          | Content
+          +chatroom_messages
         .coversation_footer
-          textarea.u-full-width(placeholder="Hi Dave …" id="exampleMessage")
+          textarea.u-full-width(placeholder="Hi Dave …" id="newMessage")
+
+mixin chatrooms
+  each chatroom in user_chat_rooms
+    .coversation= chatroom.name
+
+mixin chatroom_messages
+  each message in chat_room_messages
+    if message.client_id === 1
+      .message_text.mine= message.message_body
+    else
+      .message_text.theirs= message.message_body
