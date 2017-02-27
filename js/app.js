@@ -21,7 +21,7 @@ Enemy.prototype.reset = function(){
   var startPosition = this.xRange[0]
   this.x = startPosition
   this.y = this.getRandomY()
-  this.speed = this.getRandomSpeed()
+  
 }
 
 // Update the enemy's position, required method for game
@@ -71,6 +71,7 @@ Player.prototype.reset = function(){
 
 Player.prototype.checkCollisions = function(){
   if(this.y == -20){
+    alert('YOU WIN!!')
     this.reset()
   }else if(this.y >= 60 && this.y <= 220) {
     var self = this
@@ -95,14 +96,14 @@ Player.prototype.render = function() {
 
 
 Player.prototype.handleInput = function(allowedKeys){
-  if(allowedKeys === 'left'){
-    this.x -=(this.x - 102 < this.xRange[0]) ? 0 : 102
-  }else if(allowedKeys === 'right'){
-    this.x +=(this.x + 102 < this.xRange[1]) ? 0 : 102
-  }else if(allowedKeys === 'up'){
+        if(allowedKeys == 'left'){
+    this.x -=(this.x - 100 < this.xRange[0]) ? 0 : 100
+  }else if(allowedKeys == 'right'){
+    this.x +=(this.x + 100 > this.xRange[1]) ? 0 : 100
+  }else if(allowedKeys == 'up'){
     this.y -=(this.x - 80 < this.xRange[0]) ? 0 : 80
-  }else if(allowedKeys === 'down'){
-    this.y -=(this.x - 80 < this.xRange[1]) ? 0 : 80
+  }else if(allowedKeys == 'down'){
+    this.y +=(this.x + 80 > this.xRange[1]) ? 0 : 80
   }
 }
 // Now instantiate your objects.
