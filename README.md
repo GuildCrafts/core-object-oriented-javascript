@@ -57,10 +57,10 @@ Your objectives for the day is to:
   - https://shereef.wistia.com/medias/yejzrin760
   - https://shereef.wistia.com/medias/372u07ybvu
   - https://shereef.wistia.com/medias/xxj6323pk9
-- [ ] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
-- [ ] Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
-- [ ] Complete the [Prototype Chains][udacity] Lesson on Udacity
-- [ ] Complete the [Prototypal Classes][udacity] Lesson on Udacity
+- [x] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
+- [x] Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+- [x] Complete the [Prototype Chains][udacity] Lesson on Udacity
+- [x] Complete the [Prototypal Classes][udacity] Lesson on Udacity
 
 ### Stretch
 
@@ -72,16 +72,16 @@ Your objectives for the day is to:
 
 ## Day 4: Deeper Dive and Final Project
 
-- [ ] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
-- [ ] Complete the [Functional Classes][udacity] Lesson on Udacity
-- [ ] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
-- [ ] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
-- [ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
-- [ ] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
+- [x] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
+- [x] Complete the [Functional Classes][udacity] Lesson on Udacity
+- [x] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
+- [x] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
+- [x] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
+- [x] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
 
 ## Day 5: Final Project and check your understanding
 
-- [ ] Complete the [Final Project][udacity] Lesson on Udacity
+- [x] Complete the [Final Project][udacity] Lesson on Udacity
 
 Do you know/understand:
 
