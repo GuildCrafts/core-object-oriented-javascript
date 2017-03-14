@@ -13,17 +13,17 @@ Your objectives for the day is to:
 
 ### Scopes
 
-- [ ] Watch these videos on Type and Scope
+- [x] Watch these videos on Type and Scope
   - https://shereef.wistia.com/medias/mlnjxm9z9s
   - https://shereef.wistia.com/medias/hn99v12lkr
   - https://shereef.wistia.com/medias/6snmj6es7v
   - https://shereef.wistia.com/medias/5bva01dxbw
-- [ ] Signup for [Udacity Object Oriented Javascript][udacity]
-- [ ] Complete the [Scopes lesson][udacity]
+- [x] Signup for [Udacity Object Oriented Javascript][udacity]
+- [x] Complete the [Scopes lesson][udacity]
 
 ### Closures
 
-- [ ] Complete the [Closures lesson][udacity]
+- [x] Complete the [Closures lesson][udacity]
 
 ## Day 2: Objects and "this"
 
