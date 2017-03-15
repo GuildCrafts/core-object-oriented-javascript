@@ -64,8 +64,8 @@ Your objectives for the day is to:
 
 ### Stretch
 
-- [ ] Read pages 184 to 201 in [Professional JS for Web Developers][projs]
-- [ ] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+- [x] Read pages 184 to 201 in [Professional JS for Web Developers][projs]
+- [x] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 - [ ] Read sections 7 in [JS Ninja](ninja)
 - [ ] Do exercises for Chapter 5 of [Object Oriented Javascript][oojs] (and maybe read it)
 - [ ] Do exercises for Chapter 6 of [Object Oriented Javascript][oojs] (and maybe read it)
