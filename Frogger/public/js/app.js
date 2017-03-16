@@ -23,6 +23,8 @@ Enemy.prototype.render = function() {
 
 // Now write your own player class
 var Player = function(){
+    this.xLimit = [0, 400]
+    this.yLimit = [25, 425]
     this.sprite = 'images/char-boy.png';
     this.restart();
 };
@@ -39,13 +41,13 @@ Player.prototype = {
     },
     handleInput: function(allowedKeys){
         if(allowedKeys == 'left'){
-            this.x -= 100
+            this.x = (this.x > this.xLimit[0]) ?  this.x -= 100: this.x
         } else if(allowedKeys == 'right'){
-            this.x += 100
+            this.x = (this.x < this.xLimit[1]) ?  this.x += 100: this.x
         } else if(allowedKeys == 'up'){
-            this.y -= 100
+            this.y  = (this.y > this.yLimit[0]) ? this.y -= 100: this.y
         } else if(allowedKeys == 'down'){
-            this.y += 100
+            this.y  = (this.y < this.yLimit[1]) ? this.y += 100: this.y
         }
 
 
