@@ -23,9 +23,8 @@ Enemy.prototype.render = function() {
 
 // Now write your own player class
 var Player = function(){
-    this.x = 200;
-    this.y = 425;
     this.sprite = 'images/char-boy.png';
+    this.restart();
 };
 // This class requires an update(), render() and
 // a handleInput() method.
@@ -38,24 +37,26 @@ Player.prototype = {
     update: function(dt) {
 
     },
-    handleInput: function(){
+    handleInput: function(allowedKeys){
+        if(allowedKeys == 'left'){
+            this.x -= 100
+        } else if(allowedKeys == 'right'){
+            this.x += 100
+        } else if(allowedKeys == 'up'){
+            this.y -= 100
+        } else if(allowedKeys == 'down'){
+            this.y += 100
+        }
+
 
     },
+    restart: function(){
+        this.x = 200;
+        this.y = 425;
+    }
 
 }
 
-
-// Now instantiate your objects.
-var enemy1 = new Enemy()
-var enemy2 = new Enemy()
-var enemy3 = new Enemy()
-var enemy4 = new Enemy()
-// Place all enemy objects in an array called allEnemies
-var allEnemies = [ enemy1, enemy2, enemy3, enemy4 ];
-
-// Place the player object in a variable called player
-var player = new Player()
-player.render()
 // This listens for key presses and sends the keys to your
 // Player.handleInput() method. You don't need to modify this.
 document.addEventListener('keyup', function(e) {
@@ -68,3 +69,13 @@ document.addEventListener('keyup', function(e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
+
+
+// Now instantiate your objects.
+
+// Place all enemy objects in an array called allEnemies
+var allEnemies = [ new Enemy(), new Enemy, new Enemy() ];
+
+// Place the player object in a variable called player
+var player = new Player()
+player.render()
