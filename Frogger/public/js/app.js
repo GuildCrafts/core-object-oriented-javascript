@@ -2,24 +2,45 @@
 var Enemy = function() {
     // Variables applied to each of our instances go here,
     // we've provided one for you to get started
+    this.xLimit = [0, 400];
+    this.yLimit = [60, 305];
+    this.speed = Math.floor(Math.random() * 400) + 25
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
     this.sprite = 'images/enemy-bug.png';
+    this.reset()
 };
 
-// Update the enemy's position, required method for game
-// Parameter: dt, a time delta between ticks
-Enemy.prototype.update = function(dt) {
-    // You should multiply any movement by the dt parameter
-    // which will ensure the game runs at the same speed for
-    // all computers.
-};
+Enemy.prototype = {
+    constructor: Enemy,
+    render: function() {
+        // Draw the enemy on the screen, required method for game
+        ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
+    },
 
-// Draw the enemy on the screen, required method for game
-Enemy.prototype.render = function() {
-    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-};
+    update: function(dt) {
+        this.x = this.x + (this.speed * dt)
+        if (this.x >= 480){
+            this.reset()
+        }
+    },
+
+        // Update the enemy's position, required method for game
+        // Parameter: dt, a time delta between ticks
+        // You should multiply any movement by the dt parameter\
+        // which will ensure the game runs at the same speed for
+        // all computers.
+
+
+    reset: function(){
+        this.x = 0;
+        this.yValues = [ 65, 145, 225, 305 ];
+        this.y = this.yValues[Math.floor(Math.random() * 4) ];
+
+    }
+}
+
 
 // Now write your own player class
 var Player = function(){
@@ -55,6 +76,11 @@ Player.prototype = {
     restart: function(){
         this.x = 200;
         this.y = 425;
+    },
+    checkCollisions: function(){
+        if( this.x = allEnemies[0].x){
+            this.restart()
+        }
     }
 
 }
@@ -74,9 +100,11 @@ document.addEventListener('keyup', function(e) {
 
 
 // Now instantiate your objects.
-
+var enemy1 = new Enemy()
+var enemy2 = new Enemy()
+var enemy3 = new Enemy()
 // Place all enemy objects in an array called allEnemies
-var allEnemies = [ new Enemy(), new Enemy, new Enemy() ];
+var allEnemies = [ enemy1, enemy2, enemy3 ];
 
 // Place the player object in a variable called player
 var player = new Player()
