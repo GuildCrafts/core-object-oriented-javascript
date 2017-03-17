@@ -20,7 +20,7 @@ Enemy.prototype = {
     },
 
     update: function(dt) {
-        this.x = this.x + (this.speed * dt)
+        this.x += (this.speed * dt)
         if (this.x >= 490){
             this.reset()
         }
@@ -35,7 +35,7 @@ Enemy.prototype = {
         // all computers.
     reset: function(){
         this.x = 0;
-        this.yValues = [ 65, 145, 225, 305 ];
+        this.yValues = [ 45, 135, 225];;
         this.y = this.yValues[Math.floor(Math.random() * 4) ];
 
     }
@@ -47,7 +47,7 @@ Enemy.prototype = {
 // Now write your own player class
 var Player = function(){
     this.xLimit = [0, 400]
-    this.yLimit = [24, 425]
+    this.yLimit = [24, 405]
     this.sprite = 'images/char-boy.png';
     this.restart();
 };
@@ -64,33 +64,42 @@ Player.prototype = {
 
     },
     handleInput: function(allowedKeys){
+
         if(allowedKeys == 'left'){
             this.x = (this.x > this.xLimit[0]) ?  this.x -= 100: this.x
         } else if(allowedKeys == 'right'){
             this.x = (this.x < this.xLimit[1]) ?  this.x += 100: this.x
         } else if(allowedKeys == 'up'){
-            this.y  = (this.y > this.yLimit[0]) ? this.y -= 100: this.y
-            if(this.y < 25){
-                this.restart()
-            }
+            this.y  = (this.y > this.yLimit[0]) ? this.y -= 90: this.y
+
         } else if(allowedKeys == 'down'){
-            this.y  = (this.y < this.yLimit[1]) ? this.y += 100: this.y
+            this.y  = (this.y < this.yLimit[1]) ? this.y += 90: this.y
         }
 
 
     },
     checkCollisions: function(){
-        console.log('player x value', player.x)
-        console.log('player y value', player.y)
-        //
-        // if(player.y < 25 && allowedKeys === 'up'){
-        //     Player.restart()
-        // }
+        console.log('player x', player.x)
+        console.log('player y', player.y)
+        if(this.y < 25){
+            this.restart()
+        } else if( this.y >= 45 && this.y <= 315){
+            var me = this
+            allEnemies.map(function(enemy){
+                if(enemy.y == me.y){
+                    console.log('Yoooooo!')
+                    if(enemy.x >= player.x -20 && enemy.x <=  player.x + 20 ){
+                        me.restart()
+                    }
+                }
+            })
+        }
 
     },
     restart: function(){
         this.x = 200;
-        this.y = 425;
+        //[ 45, 135, 225, 315, 405];
+        this.y = 405;
     },
 
 
