@@ -4,7 +4,7 @@ var Enemy = function() {
     // we've provided one for you to get started
     this.xLimit = [0, 400];
     this.yLimit = [60, 305];
-    this.speed = Math.floor(Math.random() * 400) + 25
+    this.speed = Math.floor(Math.random() * 350) + 25
 
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
@@ -21,31 +21,33 @@ Enemy.prototype = {
 
     update: function(dt) {
         this.x = this.x + (this.speed * dt)
-        if (this.x >= 480){
+        if (this.x >= 490){
             this.reset()
         }
-    },
 
+
+
+    },
         // Update the enemy's position, required method for game
         // Parameter: dt, a time delta between ticks
         // You should multiply any movement by the dt parameter\
         // which will ensure the game runs at the same speed for
         // all computers.
-
-
     reset: function(){
         this.x = 0;
         this.yValues = [ 65, 145, 225, 305 ];
         this.y = this.yValues[Math.floor(Math.random() * 4) ];
 
     }
+
+
 }
 
 
 // Now write your own player class
 var Player = function(){
     this.xLimit = [0, 400]
-    this.yLimit = [25, 425]
+    this.yLimit = [24, 425]
     this.sprite = 'images/char-boy.png';
     this.restart();
 };
@@ -58,6 +60,7 @@ Player.prototype = {
         ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
     },
     update: function(dt) {
+        this.checkCollisions()
 
     },
     handleInput: function(allowedKeys){
@@ -67,21 +70,29 @@ Player.prototype = {
             this.x = (this.x < this.xLimit[1]) ?  this.x += 100: this.x
         } else if(allowedKeys == 'up'){
             this.y  = (this.y > this.yLimit[0]) ? this.y -= 100: this.y
+            if(this.y < 25){
+                this.restart()
+            }
         } else if(allowedKeys == 'down'){
             this.y  = (this.y < this.yLimit[1]) ? this.y += 100: this.y
         }
 
 
     },
+    checkCollisions: function(){
+        console.log('player x value', player.x)
+        console.log('player y value', player.y)
+        //
+        // if(player.y < 25 && allowedKeys === 'up'){
+        //     Player.restart()
+        // }
+
+    },
     restart: function(){
         this.x = 200;
         this.y = 425;
     },
-    checkCollisions: function(){
-        if( this.x = allEnemies[0].x){
-            this.restart()
-        }
-    }
+
 
 }
 
@@ -96,6 +107,7 @@ document.addEventListener('keyup', function(e) {
     };
 
     player.handleInput(allowedKeys[e.keyCode]);
+    player.checkCollisions(allowedKeys[e.keyCode]);
 });
 
 
