@@ -76,12 +76,12 @@ Your objectives for the day is to:
 - [X] Complete the [Functional Classes][udacity] Lesson on Udacity
 - [X] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
 - [X] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
-- [ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
-- [ ] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
+- [X] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
+- [X] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
 
 ## Day 5: Final Project and check your understanding
 
-- [ ] Complete the [Final Project][udacity] Lesson on Udacity
+- [X] Complete the [Final Project][udacity] Lesson on Udacity
 
 Do you know/understand:
 
