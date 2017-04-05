@@ -46,7 +46,7 @@ Your objectives for the day is to:
 
 ### Stretch
 
-- [ ] Do exercises for Chapter 4 of [Object Oriented Javascript](ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/[Packt]%20-%20Object-Oriented%20JavaScript%20-%20[Stefanov].pdf) (and maybe read it)
+- [ ] Do exercises for Chapter 4 of [Object Oriented Javascript][book-oojs] (and maybe read it)
 - [ ] Study these [top 50 OOPs interview questions](http://career.guru99.com/top-50-oops-interview-questions/)
 
 ## Day 3: Prototype and Inheritance
@@ -67,8 +67,8 @@ Your objectives for the day is to:
 - [ ] Read pages 184 to 201 in [Professional JS for Web Developers][projs]
 - [ ] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 - [ ] Read sections 7 in [JS Ninja](ninja)
-- [ ] Do exercises for Chapter 5 of [Object Oriented Javascript][oojs] (and maybe read it)
-- [ ] Do exercises for Chapter 6 of [Object Oriented Javascript][oojs] (and maybe read it)
+- [ ] Do exercises for Chapter 5 of [Object Oriented Javascript][book-oojs] (and maybe read it)
+- [ ] Do exercises for Chapter 6 of [Object Oriented Javascript][book-oojs] (and maybe read it)
 
 ## Day 4: Deeper Dive and Final Project
 
@@ -119,4 +119,4 @@ Do you know/understand:
 [projs]: ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/Wrox.Professional.JavaScript.for.Web.Developers.3rd.Edition.Jan.2012.pdf
 [ninja]: https://github.com/GuildCrafts/core-object-oriented-javascript/raw/master/Books/Secrets%20of%20the%20JavaScript%20Ninja%20-%20John%20Resig%20and%20Bear%20Bibeault%20-%20December%202012.pdf
 [cheat]: https://github.com/GuildCrafts/core-object-oriented-javascript/raw/master/Books/Objects-Cheat-Sheet.pdf
-[oojs]: ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/[Packt]%20-%20Object-Oriented%20JavaScript%20-%20[Stefanov].pdf
+[book-oojs]: ./Books/Object-Oriented_JavaScript-Stefanov.pdf
