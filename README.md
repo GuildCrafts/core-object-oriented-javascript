@@ -46,7 +46,7 @@ Your objectives for the day is to:
 
 ### Stretch
 
-- [ ] Do exercises for Chapter 4 of [Object Oriented Javascript][oojs] (and maybe read it)
+- [ ] Do exercises for Chapter 4 of [Object Oriented Javascript](ftp://ftp.micronet-rostov.ru/linux-support/books/programming/JavaScript/[Packt]%20-%20Object-Oriented%20JavaScript%20-%20[Stefanov].pdf) (and maybe read it)
 - [ ] Study these [top 50 OOPs interview questions](http://career.guru99.com/top-50-oops-interview-questions/)
 
 ## Day 3: Prototype and Inheritance
