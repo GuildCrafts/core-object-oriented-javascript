@@ -72,12 +72,12 @@ Your objectives for the day is to:
 
 ## Day 4: Deeper Dive and Final Project
 
-- [x] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
-- [x] Complete the [Functional Classes][udacity] Lesson on Udacity
-- [x] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
-- [x] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
-- [x] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
-- [x] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
+- [ ] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
+- [ ] Complete the [Functional Classes][udacity] Lesson on Udacity
+- [ ] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
+- [ ] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
+- [ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
+- [ ] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
 
 ## Day 5: Final Project and check your understanding
 
