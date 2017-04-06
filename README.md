@@ -13,36 +13,36 @@ Your objectives for the day is to:
 
 ### Scopes
 
-- [ ] Watch these videos on Type and Scope
+- [x] Watch these videos on Type and Scope
   - https://shereef.wistia.com/medias/mlnjxm9z9s
   - https://shereef.wistia.com/medias/hn99v12lkr
   - https://shereef.wistia.com/medias/6snmj6es7v
   - https://shereef.wistia.com/medias/5bva01dxbw
-- [ ] Signup for [Udacity Object Oriented Javascript][udacity]
-- [ ] Complete the [Scopes lesson][udacity]
+- [x] Signup for [Udacity Object Oriented Javascript][udacity]
+- [x] Complete the [Scopes lesson][udacity]
 
 ### Closures
 
-- [ ] Complete the [Closures lesson][udacity]
+- [x] Complete the [Closures lesson][udacity]
 
 ## Day 2: Objects and "this"
 
 ### Objects
 
-- [ ] Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
-- [ ] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
-- [ ] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
+- [x] Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
+- [x] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
+- [x] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
 - [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
-- [ ] Skim this [cheat sheet][cheat]
+- [x] Skim this [cheat sheet][cheat]
 
 ### This
 
-- [ ] Watch these videos:
+- [x] Watch these videos:
   - https://shereef.wistia.com/medias/wfybhl2nmr
   - https://shereef.wistia.com/medias/kqbedkmm13
 - [ ] Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 - [ ] Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
-- [ ] Complete the [Keyword "this" lesson][udacity]
+- [x] Complete the [Keyword "this" lesson][udacity]
 
 ### Stretch
 
@@ -59,8 +59,8 @@ Your objectives for the day is to:
   - https://shereef.wistia.com/medias/xxj6323pk9
 - [ ] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 - [ ] Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
-- [ ] Complete the [Prototype Chains][udacity] Lesson on Udacity
-- [ ] Complete the [Prototypal Classes][udacity] Lesson on Udacity
+- [x] Complete the [Prototype Chains][udacity] Lesson on Udacity
+- [x] Complete the [Prototypal Classes][udacity] Lesson on Udacity
 
 ### Stretch
 
@@ -72,11 +72,11 @@ Your objectives for the day is to:
 
 ## Day 4: Deeper Dive and Final Project
 
-- [ ] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
-- [ ] Complete the [Functional Classes][udacity] Lesson on Udacity
-- [ ] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
-- [ ] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
-- [ ] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
+- [x] Complete the [Object Decorator Pattern][udacity] Lesson on Udacity
+- [x] Complete the [Functional Classes][udacity] Lesson on Udacity
+- [x] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
+- [x] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
+- [x] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
 - [ ] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
 
 ## Day 5: Final Project and check your understanding
