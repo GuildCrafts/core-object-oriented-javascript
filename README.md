@@ -40,7 +40,7 @@ Your objectives for the day is to:
 - [X] Watch these videos:
   - https://shereef.wistia.com/medias/wfybhl2nmr
   - https://shereef.wistia.com/medias/kqbedkmm13
-- [ ] Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+- [X] Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
 - [X] Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
 - [X] Complete the [Keyword "this" lesson][udacity]
 
@@ -57,7 +57,7 @@ Your objectives for the day is to:
   - https://shereef.wistia.com/medias/yejzrin760
   - https://shereef.wistia.com/medias/372u07ybvu
   - https://shereef.wistia.com/medias/xxj6323pk9
-- [ ] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
+- [X] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
 - [ ] Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 - [X] Complete the [Prototype Chains][udacity] Lesson on Udacity
 - [X] Complete the [Prototypal Classes][udacity] Lesson on Udacity
@@ -65,7 +65,7 @@ Your objectives for the day is to:
 ### Stretch
 
 - [X] Read pages 184 to 201 in [Professional JS for Web Developers][projs]
-- [ ] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
+- [X] Read [Understanding Javascript Prototypes](https://javascriptweblog.wordpress.com/2010/06/07/understanding-javascript-prototypes/)
 - [ ] Read sections 7 in [JS Ninja](ninja)
 - [ ] Do exercises for Chapter 5 of [Object Oriented Javascript][book-oojs] (and maybe read it)
 - [ ] Do exercises for Chapter 6 of [Object Oriented Javascript][book-oojs] (and maybe read it)
