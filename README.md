@@ -32,7 +32,7 @@ Your objectives for the day is to:
 - [x] Watch [Video introduction to Object Oriented Javascript](https://www.youtube.com/watch?v=O8wwnhdkPE4) (1 Hour)
 - [x] Read [Javascript Objects in Detail](http://javascriptissexy.com/javascript-objects-in-detail/)
 - [x] Read pages 173 to 184 in [Professional JS for Web Developers][projs]
-- [ ] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
+- [x] Signup for a free Team Treehouse trial and complete their [Object Oriented Javascript Course] (https://teamtreehouse.com/library/objectoriented-javascript)
 - [x] Skim this [cheat sheet][cheat]
 
 ### This
@@ -40,8 +40,8 @@ Your objectives for the day is to:
 - [x] Watch these videos:
   - https://shereef.wistia.com/medias/wfybhl2nmr
   - https://shereef.wistia.com/medias/kqbedkmm13
-- [ ] Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
-- [ ] Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
+- [x] Read [Undrestanding Javascrpt's This with Clarity and Mastery](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/)
+- [x] Read [What is this in Javascript](http://www.code-sample.com/2015/06/what-is-this-in-javascript.html)
 - [x] Complete the [Keyword "this" lesson][udacity]
 
 ### Stretch
@@ -51,14 +51,14 @@ Your objectives for the day is to:
 
 ## Day 3: Prototype and Inheritance
 
-- [ ] Watch these videos on Prototypes:
+- [x] Watch these videos on Prototypes:
   - https://shereef.wistia.com/medias/a5m8nwq4su
   - https://shereef.wistia.com/medias/ednchu35gz
   - https://shereef.wistia.com/medias/yejzrin760
   - https://shereef.wistia.com/medias/372u07ybvu
   - https://shereef.wistia.com/medias/xxj6323pk9
-- [ ] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
-- [ ] Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
+- [x] Read [Prototype in Plain English](http://javascriptissexy.com/javascript-prototype-in-plain-detailed-language/)
+- [x] Read [OOP in Javascript](http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/)
 - [x] Complete the [Prototype Chains][udacity] Lesson on Udacity
 - [x] Complete the [Prototypal Classes][udacity] Lesson on Udacity
 
@@ -77,11 +77,11 @@ Your objectives for the day is to:
 - [x] Complete the [Pseudoclassical Patterns][udacity] Lesson on Udacity
 - [x] Complete the [Superclass and Subclass Patterns][udacity] Lesson on Udacity
 - [x] Complete the [Pseudoclassical Sublasses][udacity] Lesson on Udacity
-- [ ] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
+- [x] Start (and maybe finish) the [Final Project][udacity] Lesson on Udacity
 
 ## Day 5: Final Project and check your understanding
 
-- [ ] Complete the [Final Project][udacity] Lesson on Udacity
+- [x] Complete the [Final Project][udacity] Lesson on Udacity
 
 Do you know/understand:
 
