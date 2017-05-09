@@ -7,57 +7,27 @@
   <body>
     <script type="text/Javascript">
 
-var customer = {
-  name: " Tom Smith",
-  speak: function(){
-    return "My name is" + this.name;
-  },
-
-  address: {
-    street:"123 Main St",
-    city: "Pitsburgh",
-    state: "PA"
+  function getSum(num1, num2){
+    return num1 + num2
   }
-};
+    document.write("num of arguments " + getSum.length + "<br />");
 
-document.write(customer.speak() + "<br />");
-document.write(customer.name + " lives at " + customer.address.street + "<br />");
-
-customer.address.country = "US";
-
-document.write(customer.address.country + "<br />")
-
-function Person(name, street) {
-  this.name = name;
-  this.street = street;
-
-  this.info = function(){
-    return "My name is" + this.name + " and I live on " + this.street;
+  function Mammal(name){
+    this.name = name;
+    this.getInfo = function(){
+      return "The mammals name is " + this.name;
+    }
   }
-}
+    Mammal.prototype.sound = "Grrrr";
 
-var bobSmith = new Person("Bob Smith", "234 Main st");
+    Mammal.prototype.makeSound = function(){
+    return this.name + " says " + this.sound;
+    }
 
-document.write(bobSmith.info() + "<br />");
-document.write("Bob is a person " + (bobSmith instanceof Person) + "<br />");
+    var grover = new Mammal("Grover");
 
-function changeName(person){
-  person.name = "Sue Smith";
-}
-
-changeName(bobSmith);
-
-document.write("Bob became " + bobSmith.name + "<br />");
-
-var person1= new Person ("Paul", "123 Main");
-var person2= new Person ("Paul", "123 Main");
-
-document.write("Are they equal " + (person1 === person2) + "<br />");
-
-
-
-
-
+    document.write(grover.makeSound() + "<br />")
+  for
 
     </script>
   </body>
